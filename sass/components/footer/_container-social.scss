@@ -1,0 +1,43 @@
+.container-social {
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white-color;
+}
+
+.footer-social-list {
+  display: flex;
+
+  & :not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
+.footer-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: $link-background;
+  fill: $white-color;
+
+  transition: background-color $transition-seting;
+
+  &:hover,
+  &:focus {
+    background-color: $hover-allblue;
+    transition: background-color $transition-seting;
+  }
+}
+

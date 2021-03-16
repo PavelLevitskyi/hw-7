@@ -1,0 +1,43 @@
+.team-card {
+  text-align: center;
+  background-color: $white-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+
+.team-tumb {
+  width: 270px;
+
+  & img {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.workers {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-names {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $teg-h-navigation;
+}
+
+.team-professions {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 19px;
+}
+
