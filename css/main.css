@@ -48,14 +48,14 @@ h3 {
   margin: -1px;
 }
 
-.header {
+.page-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   border: 1px solid #ececec;
 }
 
-.header-container {
+.page-header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,41 +89,41 @@ h3 {
           align-items: center;
 }
 
-.header-navigation {
+.header-nav-item {
+  position: relative;
+}
+
+.header-nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
 }
 
-.header-navigation li:not(:first-child) {
+.header-nav-list li:not(:first-child) {
   margin-left: 50px;
 }
 
-.header-navigation-title {
-  position: relative;
-}
-
-.header-navigation-link {
+.header-nav-link {
   color: #212121;
   padding-top: auto;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-navigation-link.current {
+.header-nav-link.current {
   color: #2196f3;
 }
 
-.header-navigation-link.current::after {
+.header-nav-link.current::after {
   opacity: 1;
 }
 
-.header-navigation-link:hover, .header-navigation-link:focus {
+.header-nav-link:hover, .header-nav-link:focus {
   color: #2196f3;
 }
 
-.header-navigation-link::after {
+.header-nav-link::after {
   content: '';
   position: absolute;
   -webkit-transform: translateY(45px);
@@ -138,7 +138,7 @@ h3 {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-navigation-link:hover::after {
+.header-nav-link:hover::after {
   opacity: 1;
 }
 
@@ -164,7 +164,7 @@ h3 {
   margin-left: 50px;
 }
 
-.header-contacts-link {
+.header-contacts_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,16 +177,16 @@ h3 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contacts-link:hover, .header-contacts-link:focus {
+.header-contacts_link:hover, .header-contacts_link:focus {
   color: #2196f3;
 }
 
-.header-contacts-link:hover .header-contacts-icon,
-.header-contacts-link:focus .header-contacts-icon {
+.header-contacts_link:hover .header-contacts_icon,
+.header-contacts_link:focus .header-contacts_icon {
   fill: #2196f3;
 }
 
-.header-contacts-icon {
+.header-contacts_icon {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -200,7 +200,7 @@ h3 {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-section {
+.hero {
   max-width: 1600px;
   padding: 200px 15px;
   text-align: center;
@@ -214,7 +214,7 @@ h3 {
   margin: 0 auto;
 }
 
-.hero-section-title {
+.hero-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -233,7 +233,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.hero-section-link {
+.hero-link {
   background-color: #2196f3;
   color: white;
   font-weight: 700;
@@ -245,7 +245,7 @@ h3 {
   border-radius: 4px;
 }
 
-.skills-section {
+.skills {
   padding-top: 94px;
 }
 
@@ -260,24 +260,24 @@ h3 {
   margin-right: auto;
 }
 
-.skills-list {
+.skills_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.skills-list .skills-card:not(:first-child) {
+.skills_list .skills-item:not(:first-child) {
   margin-left: 30px;
 }
 
-.skills-card-text {
+.skills-item_text {
   display: inline-block;
   color: #757575;
   font-size: 14px;
   line-height: 24px;
 }
 
-.skills-card-title {
+.skills-item_title {
   display: inline-block;
   margin-bottom: 10px;
   color: #212121;
@@ -303,7 +303,7 @@ h3 {
   border-radius: 4px;
 }
 
-.work-section {
+.work {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -327,25 +327,25 @@ h3 {
   line-height: 42px;
 }
 
-.work {
+.work-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.work li:not(:first-child) {
+.work-list li:not(:first-child) {
   margin-left: 30px;
 }
 
-.work-card {
+.work-list_card {
   position: relative;
 }
 
-.work-tumb {
+.work-list_tumb {
   width: 370px;
 }
 
-.work-item {
+.work-list_text {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -366,12 +366,12 @@ h3 {
   color: white;
 }
 
-.work-link {
+.work-list_link {
   position: relative;
   height: 100%;
 }
 
-.work-tumb img {
+.work_tumb img {
   display: block;
   height: 100%;
   width: 100%;
@@ -393,7 +393,7 @@ h3 {
           align-items: center;
 }
 
-.team-title {
+.team_title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -408,7 +408,7 @@ h3 {
   color: #212121;
 }
 
-.team-foto {
+.team-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,22 +428,22 @@ h3 {
   margin-left: 30px;
 }
 
-.team-tumb {
+.team_tumb {
   width: 270px;
 }
 
-.team-tumb img {
+.team_tumb img {
   display: block;
   height: 100%;
   width: 100%;
 }
 
-.workers {
+.team_tools {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-names {
+.team_names {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -451,13 +451,13 @@ h3 {
   color: #212121;
 }
 
-.team-professions {
+.team_professions {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 19px;
 }
 
-.team-social {
+.team-social_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -470,11 +470,11 @@ h3 {
   color: white;
 }
 
-.social-list:not(:first-child) {
+.social_item:not(:first-child) {
   margin-left: 10px;
 }
 
-.social-links {
+.social_links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -492,17 +492,17 @@ h3 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links:hover, .social-links:focus {
+.social_links:hover, .social_links:focus {
   color: white;
   background-color: #2196f3;
 }
 
-.icon-social {
+.social-icon {
   margin: auto;
   fill: currentColor;
 }
 
-.clients-section {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -518,7 +518,7 @@ h3 {
           align-items: center;
 }
 
-.clients-item {
+.clients-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -535,17 +535,17 @@ h3 {
   color: #212121;
 }
 
-.clients-companies {
+.clients-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.clients-companies :not(:first-child) {
+.clients-list :not(:first-child) {
   margin-left: 30px;
 }
 
-.clients-link {
+.clients_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -564,12 +564,12 @@ h3 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients_link:hover, .clients_link:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
 }
 
-.icon-contact-client {
+.clients_icon {
   fill: currentColor;
 }
 
@@ -809,6 +809,9 @@ h3 {
   padding: 60px 15px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .footer-contacts {
@@ -831,23 +834,22 @@ h3 {
   width: 231px;
 }
 
-.footer-list li:not(:last-child) {
+.footer-contacts-list li:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-link {
+.footer-contacts-link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 24px;
 }
 
-.footer-link.adress {
+.footer-contacts-link.adress {
   color: white;
 }
 
 .container-social {
   margin-left: 70px;
-  margin-top: 12px;
 }
 
 .footer-title {
@@ -858,17 +860,17 @@ h3 {
   color: white;
 }
 
-.footer-social-list {
+.footer-social_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer-social-list :not(:first-child) {
+.footer-social_list :not(:first-child) {
   margin-left: 10px;
 }
 
-.footer-social-icon {
+.footer-social_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -887,7 +889,7 @@ h3 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-icon:hover, .footer-social-icon:focus {
+.footer-social_link:hover, .footer-social_link:focus {
   background-color: #2196f3;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -896,7 +898,6 @@ h3 {
 .container-form {
   max-width: 570px;
   margin-left: auto;
-  margin-top: 12px;
 }
 
 .form-title {

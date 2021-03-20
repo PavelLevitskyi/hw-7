@@ -4,16 +4,16 @@
   width: 231px;
 }
 
-.footer-list li:not(:last-child) {
+.footer-contacts-list li:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-link {
+.footer-contacts-link {
   color: $footer-link;
   font-size: 14px;
   line-height: 24px;
 
-  &.adress{
+  &.adress {
     color: $white-color;
   }
 }

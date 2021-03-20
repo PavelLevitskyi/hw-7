@@ -10,7 +10,7 @@
   }
 }
 
-.team-tumb {
+.team_tumb {
   width: 270px;
 
   & img {
@@ -20,12 +20,12 @@
   }
 }
 
-.workers {
+.team_tools {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-names {
+.team_names {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -34,10 +34,9 @@
   color: $teg-h-navigation;
 }
 
-.team-professions {
+.team_professions {
   margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 19px;
 }
-

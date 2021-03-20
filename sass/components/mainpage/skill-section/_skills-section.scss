@@ -1,4 +1,4 @@
-.skills-section {
+.skills {
   padding-top: 94px;
 }
 
@@ -12,17 +12,16 @@
   margin-right: auto;
 }
 
-.skills-list {
+.skills_list {
   display: flex;
 
-  & .skills-card:not(:first-child) {
+  & .skills-item:not(:first-child) {
     margin-left: 30px;
   }
 }
 
-.skills-card {
-  
-  &-text {
+.skills-item {
+  &_text {
     display: inline-block;
 
     color: $text-color;
@@ -30,7 +29,7 @@
     line-height: 24px;
   }
 
-  &-title {
+  &_title {
     display: inline-block;
     margin-bottom: 10px;
 
@@ -40,7 +39,6 @@
     line-height: 16px;
   }
 }
-
 
 .icon-box {
   display: flex;
@@ -54,4 +52,3 @@
   background-color: $ourteam-background;
   border-radius: 4px;
 }
- 

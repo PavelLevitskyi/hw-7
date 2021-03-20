@@ -1,6 +1,5 @@
 .container-social {
   margin-left: 70px;
-  margin-top: 12px;
 }
 
 .footer-title {
@@ -12,7 +11,7 @@
   color: $white-color;
 }
 
-.footer-social-list {
+.footer-social_list {
   display: flex;
 
   & :not(:first-child) {
@@ -20,7 +19,7 @@
   }
 }
 
-.footer-social-icon {
+.footer-social_link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,4 +39,3 @@
     transition: background-color $transition-seting;
   }
 }
-

@@ -6,10 +6,9 @@
   & li:not(:first-child) {
     margin-left: 50px;
   }
-
 }
 
-.header-contacts-link {
+.header-contacts_link {
   display: flex;
   justify-items: center;
   align-items: center;
@@ -23,13 +22,13 @@
     color: $hover-allblue;
   }
 
-  &:hover .header-contacts-icon,
-  &:focus .header-contacts-icon{
+  &:hover .header-contacts_icon,
+  &:focus .header-contacts_icon {
     fill: $hover-allblue;
   }
 }
 
-.header-contacts-icon {
+.header-contacts_icon {
   display: inline-flex;
   align-items: center;
   justify-items: center;

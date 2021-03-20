@@ -1,4 +1,4 @@
-.team-social {
+.team-social_list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,11 +6,11 @@
   color: $white-color;
 }
 
-.social-list:not(:first-child) {
+.social_item:not(:first-child) {
   margin-left: 10px;
 }
 
-.social-links {
+.social_links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,8 +20,7 @@
   border-radius: 50%;
   color: $svg-color;
 
-  transition: color $transition-seting,
-    background-color $transition-seting;
+  transition: color $transition-seting, background-color $transition-seting;
 
   &:hover,
   &:focus {
@@ -30,7 +29,7 @@
   }
 }
 
-.icon-social {
+.social-icon {
   margin: auto;
   fill: currentColor;
 }

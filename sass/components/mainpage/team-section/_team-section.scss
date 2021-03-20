@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.team-title {
+.team_title {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -26,8 +26,7 @@
   color: $teg-h-navigation;
 }
 
-.team-foto {
+.team-list {
   display: flex;
   flex-wrap: nowrap;
 }
-

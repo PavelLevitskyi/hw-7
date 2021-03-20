@@ -1,26 +1,22 @@
-.header-nav{
+.header-nav {
   display: flex;
   align-items: center;
+
+  &-item {
+    position: relative;
+  }
 }
 
-
-.header-navigation {
+.header-nav-list {
   display: flex;
   margin: 0 auto;
 
   & li:not(:first-child) {
-
     margin-left: 50px;
-  }
-  
-  &-title { 
-    position: relative;
-
   }
 }
 
-
-.header-navigation-link {
+.header-nav-link {
   color: $teg-h-navigation;
   padding-top: auto;
 
@@ -51,8 +47,7 @@
     border-radius: 2px;
 
     opacity: 0;
-    transition: opacity $transition-seting, color $transition-seting;   
-
+    transition: opacity $transition-seting, color $transition-seting;
   }
 
   &:hover::after {

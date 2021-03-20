@@ -1,4 +1,4 @@
-.clients-section {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.clients-item {
+.clients-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@
   color: $teg-h-navigation;
 }
 
-.clients-companies {
+.clients-list {
   display: flex;
 
   & :not(:first-child) {
@@ -34,7 +34,7 @@
   }
 }
 
-.clients-link {
+.clients_link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,6 +56,6 @@
   }
 }
 
-.icon-contact-client {
+.clients_icon {
   fill: currentColor;
 }
