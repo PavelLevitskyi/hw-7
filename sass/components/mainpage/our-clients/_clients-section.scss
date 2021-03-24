@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.clients-title {
+.clients__title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@
   color: $teg-h-navigation;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
 
   & :not(:first-child) {
@@ -34,7 +34,7 @@
   }
 }
 
-.clients_link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,6 +56,6 @@
   }
 }
 
-.clients_icon {
+.clients__icon {
   fill: currentColor;
 }

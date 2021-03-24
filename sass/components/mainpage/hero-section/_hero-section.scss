@@ -16,7 +16,7 @@
   background-position: center;
   margin: 0 auto;
 
-  &-title {
+  &__title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@
     text-transform: uppercase;
   }
 
-  &-link {
+  &__link {
     background-color: $hover-allblue;
     color: $white-color;
     font-weight: 700;

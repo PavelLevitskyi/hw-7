@@ -1,8 +1,8 @@
-.container-social {
+.footer-social__container {
   margin-left: 70px;
 }
 
-.footer-title {
+.footer-social__title {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -11,7 +11,7 @@
   color: $white-color;
 }
 
-.footer-social_list {
+.footer-social__list {
   display: flex;
 
   & :not(:first-child) {
@@ -19,7 +19,7 @@
   }
 }
 
-.footer-social_link {
+.footer-social__link {
   display: flex;
   justify-content: center;
   align-items: center;

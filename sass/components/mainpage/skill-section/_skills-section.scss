@@ -1,5 +1,36 @@
 .skills {
   padding-top: 94px;
+
+  &__text {
+    display: inline-block;
+
+    color: $text-color;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__title {
+    display: inline-block;
+    margin-bottom: 10px;
+
+    color: $teg-h-navigation;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    background-color: $ourteam-background;
+    border-radius: 4px;
+  }
 }
 
 .skills-container {
@@ -12,43 +43,10 @@
   margin-right: auto;
 }
 
-.skills_list {
+.skills__list {
   display: flex;
 
-  & .skills-item:not(:first-child) {
+  & .skills__item:not(:first-child) {
     margin-left: 30px;
   }
-}
-
-.skills-item {
-  &_text {
-    display: inline-block;
-
-    color: $text-color;
-    font-size: 14px;
-    line-height: 24px;
-  }
-
-  &_title {
-    display: inline-block;
-    margin-bottom: 10px;
-
-    color: $teg-h-navigation;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
-.icon-box {
-  display: flex;
-  width: 270px;
-  height: 120px;
-  justify-content: center;
-  align-items: center;
-
-  margin-bottom: 30px;
-
-  background-color: $ourteam-background;
-  border-radius: 4px;
 }

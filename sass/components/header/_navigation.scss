@@ -1,13 +1,13 @@
-.header-nav {
+.page-nav {
   display: flex;
   align-items: center;
 
-  &-item {
+  &__item {
     position: relative;
   }
 }
 
-.header-nav-list {
+.page-nav__list {
   display: flex;
   margin: 0 auto;
 
@@ -16,7 +16,7 @@
   }
 }
 
-.header-nav-link {
+.page-nav__link {
   color: $teg-h-navigation;
   padding-top: auto;
 

@@ -1,4 +1,4 @@
-.header-contacts {
+.page-contacts {
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -8,7 +8,7 @@
   }
 }
 
-.header-contacts_link {
+.page-contacts__link {
   display: flex;
   justify-items: center;
   align-items: center;
@@ -22,13 +22,13 @@
     color: $hover-allblue;
   }
 
-  &:hover .header-contacts_icon,
-  &:focus .header-contacts_icon {
+  &:hover .page-contacts__icon,
+  &:focus .page-contacts__icon {
     fill: $hover-allblue;
   }
 }
 
-.header-contacts_icon {
+.page-contacts__icon {
   display: inline-flex;
   align-items: center;
   justify-items: center;

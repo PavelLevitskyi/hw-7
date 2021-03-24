@@ -1,9 +1,14 @@
-.container-form {
+.footer-form {
   max-width: 570px;
   margin-left: auto;
+
+  &__signup {
+    display: flex;
+    margin-left: auto;
+  }
 }
 
-.form-title {
+.footer-form__title {
   margin-bottom: 20px;
 
   color: $white-color;
@@ -13,12 +18,7 @@
   line-height: 16px;
 }
 
-.fotter-form {
-  display: flex;
-  margin-left: auto;
-}
-
-.form-input {
+.footer-form__input {
   width: 358px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -44,7 +44,7 @@
   }
 }
 
-.footer-butn {
+.footer-form__butn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +71,6 @@
   }
 }
 
-.form-icon {
+.footer-form__icon {
   margin-left: 10px;
 }

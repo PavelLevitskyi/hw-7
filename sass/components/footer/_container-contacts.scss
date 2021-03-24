@@ -1,14 +1,18 @@
-.container-contacts {
+.footer-contacts {
   display: flex;
   flex-direction: column;
   width: 231px;
+
+  &__textstyle {
+    font-style: normal;
+  }
 }
 
-.footer-contacts-list li:not(:last-child) {
+.footer-contacts__list li:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-contacts-link {
+.footer-contacts__link {
   color: $footer-link;
   font-size: 14px;
   line-height: 24px;

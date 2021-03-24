@@ -1,25 +1,25 @@
-.modal-agree-contain {
+.modal-agree {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-}
 
-.agree {
-  position: relative;
-  margin-bottom: 30px;
-  padding-left: 36px;
-  max-height: 24px;
-}
+  &__contain {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 36px;
+    max-height: 24px;
+  }
 
-.form-accept {
-  margin-bottom: 30px;
+  &__accept {
+    margin-bottom: 30px;
 
-  font-size: 14px;
-  line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+  }
 
-  &-icon {
+  &__icon {
     position: absolute;
     left: 13px;
     top: 50%;
@@ -31,25 +31,25 @@
     fill: $white-color;
   }
 
-  &-checkbox {
+  &__checkbox {
     position: absolute;
     left: 13px;
     top: 50%;
     transform: translateY(-50%);
   }
 
-  &-checkbox:checked + .agree-icon {
+  &__checkbox:checked + &__icon {
     border: none;
     opacity: 1;
   }
+
+  &__agrement {
+    color: $modal-blue;
+    text-decoration: underline;
+  }
 }
 
-.form-accept-agrement {
-  color: $modal-blue;
-  text-decoration: underline;
-}
-
-.modal-send {
+.modal-agree__send {
   padding: 10px 55px;
   border-radius: 4px;
   background-color: $modal-blue;

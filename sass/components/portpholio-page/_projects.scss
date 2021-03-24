@@ -5,7 +5,7 @@
   margin-top: -30px;
   margin-left: -30px;
 
-  &_card {
+  &__card {
     position: relative;
 
     flex-basis: calc(100% / 3 - 30px);
@@ -13,18 +13,19 @@
     margin-left: 30px;
 
     overflow: hidden;
+    border: 1px solid $portpholio-border;
   }
 
-  &-description {
+  &__description {
     font-size: 16px;
     line-height: 30px;
   }
 
-  &_title {
+  &__title {
     padding: 20px 24px;
   }
 
-  &_name {
+  &__name {
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -34,7 +35,7 @@
   }
 }
 
-.project_tumb {
+.project__tumb {
   position: relative;
 
   &::before {
@@ -62,13 +63,13 @@
   }
 }
 
-.projects_card:hover .project_tumb::before,
-.projects_card:focus .project_tumb::before {
+.projects__card:hover .project__tumb::before,
+.projects__card:focus .project__tumb::before {
   opacity: 1;
   transform: translateY(0);
 }
 
-.text {
+.project__text {
   position: absolute;
   overflow: hidden;
   bottom: 0;
@@ -84,14 +85,14 @@
   transform: translateY(100%);
   transition: color $transition-seting, transform $transition-seting;
 
-  .projects_card:hover &,
-  .projects_card:focus & {
+  .projects__card:hover &,
+  .projects__card:focus & {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.projects_card {
+.projects__card {
   transition: box-shadow $transition-seting, transform $transition-seting;
 
   &:hover,

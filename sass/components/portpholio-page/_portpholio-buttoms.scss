@@ -1,4 +1,4 @@
-.filters_list {
+.filters__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,7 +10,7 @@
   }
 }
 
-.filters_button {
+.filters__button {
   padding: 6px 22px;
 
   font-weight: 500;
